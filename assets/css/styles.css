@@ -13,6 +13,7 @@ html {
     border-width: 2px;
     color: white;
     margin: 5px;
+    margin-top: 15px;
 }
 .imgLogo{
     width: 600px;
@@ -23,6 +24,7 @@ html {
     border-radius: 15px;
     border-color: black;
     border-style: groove;
+    margin-left: 100px;
 }
 #name{
     font-family: cursive;
@@ -43,11 +45,41 @@ html {
 }
 #pokeImg{
     width: 350px;
+    height: 350px;
     border-color: black;
     border-radius: 10px;
     box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
     box-shadow: 15px black;
 }
+
+#find{
+    width: 150px;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: cursive;
+    color: yellow;
+    background-color: #3368b1;
+    border-style: none;
+    cursor: pointer;
+}
+
+#types{
+    margin-top: 15px;
+}
+.search-box{
+    margin: 15px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-container > div {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
 .psychic{background-color: #df4f82;}
 .flying{background-color: #5779d3;}
 .dragon{background-color: #6d56e2;}

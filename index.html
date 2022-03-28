@@ -9,19 +9,28 @@
     <script src="assets/js/chart.js"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
+<body >
     <img src="assets/img/logo.svg" alt="Pokemon" class="imgLogo">
-    <input type="text" id="pokeName">
-    <button id="find">Find</button>
-    <img id="pokeImg">
-    <span id="name"></span>
-    <div id="types"></div>
 
 
-
-    <div id="canvasContainer">
+    <div class="search-box">
+        <input type="text" id="pokeName">
+        <button id="find">Find</button>
     </div>
 
+    <div class="flex-container">
+        <div></div>
+        <div>
+            <img id="pokeImg">
+            <span id="name"></span>
+            <div id="types"></div>
+        </div>
+    
+        <div id="canvasContainer">
+        </div>
+    
+        
+    </div>
     
     <script src="assets/js/scripts.js"></script>
       
